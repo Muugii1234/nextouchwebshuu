@@ -1,0 +1,142 @@
+/* FULLSCREEN BACKGROUND */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: url("images/bg_mongolia.jpg") no-repeat center center fixed;
+    background-size: cover;
+    overflow-x: hidden;
+    color: white;
+}
+
+/* DARK OVERLAY */
+.bg-overlay {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: -1;
+}
+
+/* LOGO */
+.logo {
+    width: 120px;
+    margin-top: 20px;
+    filter: drop-shadow(0 0 8px black);
+}
+
+/* HERO SECTION */
+.hero {
+    text-align: center;
+    padding: 120px 20px 60px;
+}
+
+.hero h1 {
+    font-size: 70px;
+    font-weight: bold;
+    color: #ffdd55;
+    text-shadow: 0 0 25px black;
+    letter-spacing: 3px;
+}
+
+.subtitle {
+    max-width: 850px;
+    margin: 20px auto;
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+/* COMPANY DESCRIPTION */
+.company {
+    max-width: 880px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.55);
+    padding: 25px 30px;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.2);
+    backdrop-filter: blur(6px);
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+/* FEATURES GRID */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px 30px;
+}
+
+/* FEATURE CARD */
+.feature-card {
+    background: rgba(0, 0, 0, 0.55);
+    width: 360px;
+    padding: 25px;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.15);
+    backdrop-filter: blur(5px);
+    transition: transform 0.25s ease;
+}
+
+.feature-card:hover {
+    transform: scale(1.04);
+}
+
+.feature-card h2 {
+    color: #ffd84f;
+    margin-top: 0;
+    text-shadow: 0 0 12px black;
+}
+
+.preview-img {
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 12px;
+    border: 2px solid rgba(255,255,255,0.2);
+}
+
+/* DOWNLOAD SECTION */
+.download {
+    text-align: center;
+    padding: 70px 0;
+    background: rgba(0,0,0,0.6);
+    margin-top: 50px;
+}
+
+.download h2 {
+    font-size: 42px;
+    color: #ffdd55;
+    margin-bottom: 25px;
+}
+
+.download-btn {
+    padding: 16px 45px;
+    background: #ffd633;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.25s ease;
+}
+
+.download-btn:hover {
+    background: #ffcc00;
+}
+
+.download-note {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 35px;
+    background: rgba(0,0,0,0.75);
+    font-size: 14px;
+    letter-spacing: 0.7px;
+}
